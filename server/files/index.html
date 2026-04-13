@@ -6,7 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies!</title>
     <style>
-        /* Part 3: Your styling goes here */
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        article {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        img {
+            max-width: 200px;
+            border-radius: 10px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .genre {
+            background-color: #007BFF;
+            color: white;
+            padding: 5px 10px;
+            margin-right: 5px;
+            border-radius: 6px;
+            display: inline-block;
+            font-size: 0.9em;
+        }
+
+        p {
+            margin: 8px 0;
+        }
     </style>
     <script>
         const xhr = new XMLHttpRequest();
